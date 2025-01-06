@@ -11,6 +11,9 @@
 /Users/adetokunboige/Documents/repos/todo_list_csharp_docker_beginner/TodoListAPI/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll
 /Users/adetokunboige/Documents/repos/todo_list_csharp_docker_beginner/TodoListAPI/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.InMemory.dll
 /Users/adetokunboige/Documents/repos/todo_list_csharp_docker_beginner/TodoListAPI/bin/Debug/net9.0/Microsoft.OpenApi.dll
+/Users/adetokunboige/Documents/repos/todo_list_csharp_docker_beginner/TodoListAPI/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/adetokunboige/Documents/repos/todo_list_csharp_docker_beginner/TodoListAPI/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/adetokunboige/Documents/repos/todo_list_csharp_docker_beginner/TodoListAPI/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
 /Users/adetokunboige/Documents/repos/todo_list_csharp_docker_beginner/TodoListAPI/obj/Debug/net9.0/TodoListAPI.csproj.AssemblyReference.cache
 /Users/adetokunboige/Documents/repos/todo_list_csharp_docker_beginner/TodoListAPI/obj/Debug/net9.0/TodoListAPI.GeneratedMSBuildEditorConfig.editorconfig
 /Users/adetokunboige/Documents/repos/todo_list_csharp_docker_beginner/TodoListAPI/obj/Debug/net9.0/TodoListAPI.AssemblyInfoInputs.cache
@@ -18,6 +21,7 @@
 /Users/adetokunboige/Documents/repos/todo_list_csharp_docker_beginner/TodoListAPI/obj/Debug/net9.0/TodoListAPI.csproj.CoreCompileInputs.cache
 /Users/adetokunboige/Documents/repos/todo_list_csharp_docker_beginner/TodoListAPI/obj/Debug/net9.0/TodoListAPI.MvcApplicationPartsAssemblyInfo.cs
 /Users/adetokunboige/Documents/repos/todo_list_csharp_docker_beginner/TodoListAPI/obj/Debug/net9.0/TodoListAPI.MvcApplicationPartsAssemblyInfo.cache
+/Users/adetokunboige/Documents/repos/todo_list_csharp_docker_beginner/TodoListAPI/obj/Debug/net9.0/TodoListAPI.sourcelink.json
 /Users/adetokunboige/Documents/repos/todo_list_csharp_docker_beginner/TodoListAPI/obj/Debug/net9.0/scopedcss/bundle/TodoListAPI.styles.css
 /Users/adetokunboige/Documents/repos/todo_list_csharp_docker_beginner/TodoListAPI/obj/Debug/net9.0/staticwebassets.build.json
 /Users/adetokunboige/Documents/repos/todo_list_csharp_docker_beginner/TodoListAPI/obj/Debug/net9.0/staticwebassets.development.json
