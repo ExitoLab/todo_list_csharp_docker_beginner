@@ -16,7 +16,7 @@ This project is a RESTful API for managing a simple Todo List application, built
 
 This project provides a simple API for a Todo List application. It supports the following operations:
 - **Create**: Add a new Todo item.
-- **Read**: Retrieve all Todo items.
+- **Read**: Retrieve all Todo items and a single Todo item.
 - **Update**: Update an existing Todo item.
 - **Delete**: Remove a Todo item.
 
