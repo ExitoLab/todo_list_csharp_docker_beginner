@@ -7,6 +7,7 @@ This project is a RESTful API for managing a simple Todo List application, built
 - [Technologies Used](#technologies-used)
 - [API Endpoints](#api-endpoints)
   - [GET /api/todo](#get-apitod)
+  - [GET /api/todo/{id}](#get-apitod)
   - [POST /api/todo](#post-apitod)
   - [PUT /api/todo/{id}](#put-apitodid)
   - [DELETE /api/todo/{id}](#delete-apitodid)
