@@ -20,18 +20,13 @@ builder.Services.AddSwaggerGen(c =>
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline
-// Make Swagger available in both development and staging environments
-if (app.Environment.IsDevelopment() || app.Environment.IsStaging())
+app.UseSwagger();
+app.UseSwaggerUI(c =>
 {
-    app.UseSwagger();
-    app.UseSwaggerUI(c =>
-    {
-        // Ensure the Swagger UI is accessible via the correct endpoint
-        c.SwaggerEndpoint("/swagger/v1/swagger.json", "TodoListAPI v1");
-        c.RoutePrefix = string.Empty; // Serve the Swagger UI at the root (http://localhost:5267)
-    });
-}
+    // Ensure the Swagger UI is accessible via the correct endpoint
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "TodoListAPI v1");
+    c.RoutePrefix = "swagger";
+});
 
 app.UseHttpsRedirection();
 app.UseAuthorization();
