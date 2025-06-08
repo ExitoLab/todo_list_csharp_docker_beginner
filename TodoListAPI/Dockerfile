@@ -7,7 +7,7 @@ FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 WORKDIR /src
 COPY ["TodoListAPI/TodoListAPI.csproj", "./"]
 RUN dotnet restore "./TodoListAPI.csproj"
-COPY . .
+COPY TodoListAPI/. .
 RUN dotnet build "TodoListAPI.csproj" -c Release -o /app/build
 
 # Publish
