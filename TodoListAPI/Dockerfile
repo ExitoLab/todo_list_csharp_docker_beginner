@@ -5,7 +5,7 @@ WORKDIR /app
 # Build image
 FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 WORKDIR /src
-COPY ["TodoListAPI.csproj", "./"]
+COPY ["TodoListAPI/TodoListAPI.csproj", "./"]
 RUN dotnet restore "./TodoListAPI.csproj"
 COPY . .
 RUN dotnet build "TodoListAPI.csproj" -c Release -o /app/build

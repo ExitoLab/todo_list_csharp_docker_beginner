@@ -46,7 +46,7 @@ jobs:
         run: |
           TAG="$ACR_NAME.azurecr.io/$IMAGE_NAME:${{ github.sha }}"
           echo "Building Docker image: $IMAGE_NAME with tag: $TAG"
-          docker buildx build --platform linux/amd64,linux/arm64 -t $TAG -f TodoListAPI/Dockerfile TodoListAPI/
+          docker buildx build --platform linux/amd64,linux/arm64 -t $TAG -f TodoListAPI/Dockerfile .
           docker push $TAG
 
       - name: Create Container App if it doesn't exist and deploy
