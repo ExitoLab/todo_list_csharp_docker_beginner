@@ -19,7 +19,7 @@ jobs:
       IMAGE_NAME: todolistapi
       RESOURCE_GROUP: todo-csharp-project
       CONTAINER_APP_NAME: todo-csharp-app
-      CONTAINER_ENV_NAME: todo-csharp-env
+      CONTAINER_ENV_NAME: todo-csharp
       LOCATION: eastus
 
     steps:
