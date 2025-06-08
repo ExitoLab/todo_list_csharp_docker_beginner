@@ -49,6 +49,9 @@ jobs:
           docker buildx build --platform linux/amd64,linux/arm64 --push -t $TAG -f TodoListAPI/Dockerfile .
 
       - name: Create Container App if it doesn't exist and deploy
+        env:
+          IMAGE_NAME: ${{ env.IMAGE_NAME }}
+          ACR_NAME: ${{ env.ACR_NAME }}
         run: |
           ACR_LOGIN_SERVER=${ACR_NAME}.azurecr.io
 
@@ -70,9 +73,9 @@ jobs:
               --name $CONTAINER_APP_NAME \
               --resource-group $RESOURCE_GROUP \
               --environment $CONTAINER_ENV_NAME \
-              --image $ACR_LOGIN_SERVER/$IMAGE_NAME:latest \
+              --image $ACR_NAME.azurecr.io/$IMAGE_NAME:${{ github.sha }} \
               --registry-server $ACR_LOGIN_SERVER \
-              --target-port 80 \
+              --target-port 5267 \
               --ingress external \
               --query properties.configuration.ingress.fqdn \
               --cpu 0.5 --memory 1.0Gi
